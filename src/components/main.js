@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './home'
 import Roster from './roster'
-import Schedule from './Schedule'
+import Schedule from './schedule'
 
 import Kullanici from './kullanici'
 import Yetki from './yetki'
