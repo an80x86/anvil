@@ -1,12 +1,11 @@
 import React, {Component} from 'react'
-import { Link } from 'react-router-dom'
 
 import Overlay from './overlay';
 import Navbar from './navbar';
 import LeftSideBar from './menu/leftsidebar';
 
 import { connect } from 'react-redux';
-import { artistListAll,artistList, menuListAll } from '../actions';
+import { menuListAll } from '../actions';
 import { bindActionCreators } from 'redux';
 
 class Header extends Component {
